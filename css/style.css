@@ -44,7 +44,7 @@
 
 /*HEADER*/
 /*tamaño fonfo azul*/
-.header {
+.header{
   /*content: "";*/
   /*position: absolute;*/
   width: 100%;
@@ -98,7 +98,7 @@
 /*margenes texto parrafo*/
 .header_texto p {
   font-size: 20px;
-  color: black;
+  color: white;
   width: 50%;
   margin-bottom: 100px;
   position: relative;
@@ -109,6 +109,7 @@
 
 /*tamaño imagen header*/
 .header_img {
+ 
   width: 30%;
    /*margin-top: 0%;*/
  margin-bottom: 0px;
@@ -116,6 +117,9 @@
   top: -300px;
   left: 1000px;
 
+}
+.imagenr{
+  border-radius: 10px;
 }
 
 .carrusel{
@@ -126,8 +130,8 @@
 }
 
 
-/* about section */
-.about_section {
+/* seccion1 */
+.seccion1 {
   text-align: right;
   background-image: url(../images/fondo-seccion-1.jpg);
   width: 100%;
@@ -135,16 +139,19 @@
   
 }
 
-.about_section a {
+.seccion1 a {
   background-color: #6ebca8;
   color: #fefeff;
+}
+.seccion1_box{
+  margin-top: 50px;
 }
 
 /* end about section */
 
 /* admission section */
 
-.admission_section {
+.seccion2 {
   text-align: right;
   background-image: url(../images/fondo-section-2.png);
   width: 100%;
@@ -152,16 +159,16 @@
   
 }
 
-.admission_section a {
+.seccion2 a {
   background-color: #fdd31d;
   color: #fefeff;
 }
 
-/* end admission section */
+/* end seccion2 */
 
-/* why section */
+/* seccion3 */
 
-.why_section {
+.seccion3 {
   text-align: right;
   .about_section {
     text-align: right;
@@ -173,13 +180,49 @@
   
 }
 
-.why_section a {
+.seccion3 a {
   background-color: #6ebca8;
   color: #fefeff;
 }
 
-/* end why section */
+/* end seccion3 */
 
+/* seccion4 */
+.seccion4 {
+  text-align: right;
+  background-image: url(../images/fondo-section-2.png);
+  width: 100%;
+  height: 50%;
+  
+}
+
+.seccion4 a {
+  background-color: #fdd31d;
+  color: #fefeff;
+}
+
+/* end seccion4 */
+
+/* seccion5 */
+
+.seccion5 {
+  text-align: right;
+  .about_section {
+    text-align: right;
+    background-image: url(../images/fondo-podcast.jpg);
+    width: 100%;
+    height: 50%;
+    
+  }
+  
+}
+
+.seccion5 a {
+  background-color: #6ebca8;
+  color: #fefeff;
+}
+
+/* end seccion5 */
 
 
 
