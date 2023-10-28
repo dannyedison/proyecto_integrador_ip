@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página educativa Sindrme de Down">
+    <meta name="keywords" content="educacion, sindrome de down, educacion especila">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Cromosoma21</title>
+</head>
+
+<body class="body">
+    <header>
+        <div>Cromosoma21</div>
+        <!--Barra de Navegación-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">
+                    <img src="images/Logo Cromosoma21_V4.png" alt="Cromosoma21" width="90" height="90">
+                </a>
+
+                <a class="navbar-brand" href="#">Cromosoma21</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <!--<li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="tutoriales.html">Tutoriales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tableros.html">Tableros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="inicio_sesion.html">Iniciar Sesión</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--Fin Barra de Navegación-->
+    </header>
+    <main>
+        <!--Imágenes y texto en el header-->
+        <section>
+            <div class="header">
+
+
+                <div class="header_texto">
+                    <h1>Acceso de usuarios</h1>
+                    <p>Inicia sesión con tu usuario y contraseña</p>
+                </div>
+
+                <div class="header_img">
+                    <img src="images/Logo mariposa.jpg" class="img-fluid imagenr">
+                </div>
+
+            </div>
+        </section>
+        <!--Fin Imágenes y texto del header-->
+
+
+
+        <div class="common_style">
+            <!-- login -->
+            <section class="login">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-20">
+                            <div class="login_box1">
+                                <h3>
+                                    Acceso de usuarios
+                                </h3>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container_login">
+                        <h4>
+                            Introduce tus datos de acceso
+                        </h4>
+                        <div class="form_container">
+                            <form action="">
+                                <div>
+                                    <input type="email" placeholder="Ingrese su Correo">
+                                </div>
+                                <br>
+                                <div>
+                                    <input type="password" name="contraseña" id="idpw" placeholder="Contraseña">
+                                    <input type="checkbox" onclick="myFunction()">Mostrar Password
+                                </div>
+                                <div>
+                                    <input type="checkbox"> Mantener cuenta iniciada
+                                </div>
+                                <br>
+                                <div>
+                                    <a href="#"> He olvidado mi contraseña </a>
+                                </div>
+                                <div class="button_acceder">
+                                    <button type="submit">
+                                        Acceder
+                                    </button>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+
+
+            </section>
+            <!-- end login -->
+
+            <!-- registro -->
+
+            <section class="registro">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-20">
+                            <div class="registro_box1">
+                                <h3>
+                                    Registro de usuarios
+                                </h3>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container_registro">
+                        <h4>
+                            Introduce tus datos de registro
+                        </h4>
+                        <div class="form_container">
+                            <form action="">
+                                <div>
+                                    <label for="idnombre">Nombre del paciente: </label>
+                                    <input type="text" name="nombre" id="idnombre" placeholder="Nombre" required>
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="idgenero">Genero del paciente: </label>
+                                    <select name="genero" id="idgenero" required>
+                                        <option value="M">Masculino</option>
+                                        <option value="F">Femenino</option>
+                                        <option value="Otro">Otro</option>
+
+                                    </select>
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="idfechanacimiento">Fecha de nacimiento: </label>
+                                    <input type="datetime-local" name="fechanacimiento" id="idfechanacimiento" required>
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="idnombretutor">Nombre del responsable/tutor: </label>
+                                    <input type="text" name="nombretutor" id="idnombretutor" placeholder="Nombre"
+                                        required>
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="idmail">Correo Electrónico: </label>
+                                    <input type="email" name="mail" id="idmail" placeholder="Ingrese su Correo">
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="idpw1">Contraseña: </label>
+                                    <input type="password" name="contraseña" id="idpw1" value="FakePSW">
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="idpw2">Confirme Contraseña: </label>
+                                    <input type="password" name="confcontraseña" id="idpw2" value="FakePSW">
+                                </div>
+                                <div class="button_registro">
+                                    <button type="submit">
+                                        Registrarse
+                                    </button>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+
+
+            </section>
+            <!-- end registro -->
+
+
+
+        </div>
+
+        <section class="info_section layout_padding-top">
+            <div class="info_logo-box">
+                <h2>
+                    Cromosoma21
+                </h2>
+            </div>
+            <div class="container layout_padding2">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>
+                            Acerca de Nosotros
+                        </h5>
+                        <p>
+                            vii
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>
+                            Link
+                        </h5>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Videos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Material Didáctico
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Información de Interés
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>
+                            Contáctenos
+                        </h5>
+                        <p>
+                            CESDE
+                        </p>
+                        <p>
+                            Desarrollo de Software
+                        </p>
+                        <p>
+                            Cede Bello
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+
+                        <div class="subscribe_container">
+                            <h5>
+                                Newsletter
+                            </h5>
+                            <div class="form_container">
+                                <form action="">
+                                    <input type="email" placeholder="Ingrese su Correo">
+                                    <button type="submit">
+                                        Suscripción
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="social_container">
+
+                    <div class="social-box">
+                        <a href="">
+                            <img src="images/fb.png" alt="">
+                        </a>
+
+                        <a href="">
+                            <img src="images/twitter.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/linkedin.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/instagram.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="footer_seccion">
+            <p>Copyright &copy; 2023 Todos Los Derechos Reservados Por Cromosoma21
+                <!--<a href="https://html.design/">Free Html Templates</a>-->
+            </p>
+        </section>
+    </footer>
+
+
+</body>
+
+</html>
