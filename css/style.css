@@ -1,8 +1,9 @@
 .body {
 
-  background-color: #c0c0e3;
+  /*background-color: #c0c0e3;*/
+  background-color: rgb(231, 235, 248);
+  background-image: url(../images/fondo-section-2.png);
 }
-
 
 /*Botones*/
 .call_to-btn {
@@ -136,7 +137,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: right;
-  background-image: url(../images/fondo-section-2.png);
+  /*background-image: url(../images/fondo-section-2.png);*/
   width: 100%;
   height: 50%;
 }
@@ -148,7 +149,9 @@
 
 .seccion0_box {
   margin-top: 50px;
-  background-color: rgb(183, 168, 183);
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(213, 193, 244);
 }
 
 .seccion0_box h3 {
@@ -161,7 +164,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: left;
-  background-image: url(../images/fondo-seccion-1.jpg);
+  /*background-image: url(../images/fondo-seccion-1.jpg);*/
   width: 100%;
   height: 50%;
 
@@ -174,7 +177,9 @@
 
 .seccion1_box {
   margin-top: 50px;
-  background-color: rgb(249, 191, 249);
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(247, 216, 247);
 }
 
 .seccion1_box h3 {
@@ -188,7 +193,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: right;
-  background-image: url(../images/fondo-section-2.png);
+  /*background-image: url(../images/fondo-section-2.png);*/
   width: 100%;
   height: 50%;
 
@@ -201,7 +206,9 @@
 
 .seccion2_box {
   margin-top: 50px;
-  background-color: rgb(183, 168, 183);
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(207, 246, 234);
 }
 
 .seccion2_box h3 {
@@ -217,7 +224,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: left;
-  background-image: url(../images/fondo-seccion-1.jpg);
+  /*background-image: url(../images/fondo-seccion-1.jpg);*/
   width: 100%;
   height: 50%;
 
@@ -230,7 +237,9 @@
 
 .seccion3_box {
   margin-top: 50px;
-  background-color: rgb(249, 191, 249);
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(238, 228, 178);
 }
 
 .seccion3_box h3 {
@@ -246,7 +255,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: right;
-  background-image: url(../images/fondo-section-2.png);
+ /* background-image: url(../images/fondo-section-2.png);*/
   width: 100%;
   height: 50%;
 
@@ -259,7 +268,9 @@
 
 .seccion4_box {
   margin-top: 50px;
-  background-color: rgb(183, 168, 183);
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(245, 189, 200);
 }
 
 .seccion4_box h3 {
@@ -275,7 +286,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: right;
-  background-image: url(../images/fondo-podcast.jpg);
+  /*background-image: url(../images/fondo-podcast.jpg);*/
   width: 100%;
   height: 50%;
 }
@@ -507,14 +518,14 @@
   margin-left: 120px;
 }
 
-/* end login */
+/* end registro */
 /*inicio tutoriales*/
 /*tutorial1*/
 .tutorial1 {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: left;
-  background-image: url(../images/fondo-seccion-1.jpg);
+  /*background-image: url(../images/fondo-seccion-1.jpg);*/
   width: 100%;
   height: 50%;
 
@@ -527,6 +538,8 @@
 
 .tutorial1_box {
   margin-top: 50px;
+  padding: 20px;
+  border-radius: 20px;
   background-color: rgb(249, 191, 249);
 }
 
@@ -540,7 +553,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: left;
-  background-image: url(../images/fondo-section-2.png);
+  /*background-image: url(../images/fondo-section-2.png);*/
   width: 100%;
   height: 50%;
 
@@ -553,7 +566,9 @@
 
 .tutorial2_box {
   margin-top: 50px;
-  background-color: rgb(183, 168, 183);
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(186, 200, 244);
 }
 
 .tutorial2_box h3 {
@@ -568,7 +583,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: left;
-  background-image: url(../images/fondo-seccion-1.jpg);
+  /*background-image: url(../images/fondo-seccion-1.jpg);*/
   width: 100%;
   height: 50%;
 
@@ -581,7 +596,9 @@
 
 .tableros1_box {
   margin-top: 50px;
-  background-color: rgb(249, 191, 249);
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(191, 225, 249);
 }
 
 .tableros1_box h3 {
@@ -594,7 +611,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: left;
-  background-image: url(../images/fondo-section-2.png);
+  /*background-image: url(../images/fondo-section-2.png);*/
   width: 100%;
   height: 50%;
 
@@ -607,7 +624,9 @@
 
 .tableros2_box {
   margin-top: 50px;
-  background-color: rgb(183, 168, 183);
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(244, 184, 189);
 }
 
 .tableros2_box h3 {
@@ -615,3 +634,50 @@
   font-style: italic;
 }
 /*end tableros*/
+
+/*Inicio contactenos*/
+.contactenos {
+  width: 100%;
+  height: 50%;
+}
+
+.contactenos_box1 {
+  margin-top: 50px;
+  width: 100%;
+  height: 50%;
+  background-color: blue;
+}
+
+.contactenos_box1 h3 {
+  margin-left: 20px;
+  color: white;
+  font-style: italic;
+}
+
+.container_contactenos {
+  width: 700px;
+  height: 450px;
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-bottom: 20px;
+  padding-left: 80px;
+  padding-top: 20px;
+  background-color: white;
+
+}
+
+.container_contactenos h4 {
+  margin-left: 100px;
+  margin-bottom: 50px;
+  color: black;
+  font-style: italic;
+}
+
+.contactenos_correo {
+  margin-top: 20px;
+}
+
+.button_contactenos {
+  margin-top: 30px;
+  margin-left: 10px;
+}
