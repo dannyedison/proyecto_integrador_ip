@@ -15,18 +15,7 @@
   color: #ffffff;
   font-weight: 600;
   transition: all 0.3s ease 0s;
-
-  /* position: relative;
-  display: inline-block;
-  padding: 15px 30px;
-  color: #fff;
-  letter-spacing: 4px;
-  font-size: 24px;
-  text-decoration: none;
-  overflow: hidden;
-  transition: 0.2s;*/
 }
-
 
 .btn_on-hover {
   transition: all 0.3s ease 0s;
@@ -39,9 +28,6 @@
   box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.7);
   transform: translateY(-7px);
 }
-
-
-
 
 /*HEADER*/
 /*tamaño fonfo azul*/
@@ -84,7 +70,6 @@
     color: #fefeff;
   }*/
 
-
 /*letra h1*/
 .header_texto h1 {
   font-size: 50px;
@@ -105,19 +90,16 @@
   position: relative;
   top: 20px;
   left: 30px;
-
 }
 
 /*tamaño imagen header*/
 .header_img {
-
   width: 30%;
   /*margin-top: 0%;*/
   margin-bottom: 0px;
   position: relative;
   bottom: 170px;
   left: 1000px;
-
 }
 
 .imagenr {
@@ -132,7 +114,6 @@
 }
 
 /* seccion0 */
-
 .seccion0 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -167,7 +148,6 @@
   /*background-image: url(../images/fondo-seccion-1.jpg);*/
   width: 100%;
   height: 50%;
-
 }
 
 .seccion1 a {
@@ -188,7 +168,6 @@
 }
 
 /* seccion2 */
-
 .seccion2 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -196,7 +175,6 @@
   /*background-image: url(../images/fondo-section-2.png);*/
   width: 100%;
   height: 50%;
-
 }
 
 .seccion2 a {
@@ -219,7 +197,6 @@
 /* end seccion2 */
 
 /* seccion3 */
-
 .seccion3 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -227,7 +204,6 @@
   /*background-image: url(../images/fondo-seccion-1.jpg);*/
   width: 100%;
   height: 50%;
-
 }
 
 .seccion3 a {
@@ -247,7 +223,6 @@
   font-style: italic;
 }
 
-
 /* end seccion3 */
 
 /* seccion4 */
@@ -258,7 +233,6 @@
  /* background-image: url(../images/fondo-section-2.png);*/
   width: 100%;
   height: 50%;
-
 }
 
 .seccion4 a {
@@ -281,7 +255,6 @@
 /* end seccion4 */
 
 /* seccion5 */
-
 .seccion5 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -295,11 +268,7 @@
   background-color: #6ebca8;
   color: #fefeff;
 }
-
 /* end seccion5 */
-
-
-
 
 /* info section */
 .info_section {
@@ -341,8 +310,6 @@
   margin-bottom: 12px;
   font-size: 22px;
 }
-
-
 
 .info_section .form_container input {
   width: 225px;
@@ -386,21 +353,16 @@
 
 /* end info section */
 
-
-
 /*rectangolo final*/
 .layout_padding2-top {
   padding-top: 5000px;
-
 }
 
 /* footer seccion*/
-
 .footer_seccion {
   background-color: #5d1dfd;
   padding: 20px 15px;
   font-family: 'Poppins', sans-serif;
-
 }
 
 .footer_seccion p {
@@ -442,7 +404,6 @@
   padding-left: 80px;
   padding-top: 20px;
   background-color: white;
-
 }
 
 .container_login h4 {
@@ -495,7 +456,6 @@
   padding-left: 80px;
   padding-top: 20px;
   background-color: white;
-
 }
 
 .container_registro h4 {
@@ -528,7 +488,6 @@
   /*background-image: url(../images/fondo-seccion-1.jpg);*/
   width: 100%;
   height: 50%;
-
 }
 
 .tutorial1 a {
@@ -556,7 +515,6 @@
   /*background-image: url(../images/fondo-section-2.png);*/
   width: 100%;
   height: 50%;
-
 }
 
 .tutorial2 a {
@@ -586,7 +544,6 @@
   /*background-image: url(../images/fondo-seccion-1.jpg);*/
   width: 100%;
   height: 50%;
-
 }
 
 .tableros1 a {
@@ -614,7 +571,6 @@
   /*background-image: url(../images/fondo-section-2.png);*/
   width: 100%;
   height: 50%;
-
 }
 
 .tableros2 a {
@@ -663,7 +619,6 @@
   padding-left: 80px;
   padding-top: 20px;
   background-color: white;
-
 }
 
 .container_contactenos h4 {
